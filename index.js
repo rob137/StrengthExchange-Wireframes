@@ -68,41 +68,72 @@ $('.next-wireframe-button').on('click', () => {
 				</li>
 			</ul>
 			<ul class="calendar week">
-				<li class="calendar day">Day 1</li>
-				<li class="calendar day">Day 2</li>
-				<li class="calendar day">Day 3</li>
-				<li class="calendar day">Day 4</li>
-				<li class="calendar day">Day 5</li>
-				<li class="calendar day">Day 7</li>
-				<li class="calendar day">Day 7</li>
-			</ul>
-			<ul class="calendar week">
-				<li class="calendar day">Day 1</li>
-				<li class="calendar day">Day 2</li>
-				<li class="calendar day">Day 3</li>
-				<li class="calendar day">Day 4</li>
-				<li class="calendar day">Day 5</li>
-				<li class="calendar day">Day 7</li>
-				<li class="calendar day">Day 7</li>
-			</ul>
-			<ul class="calendar week">
-				<li class="calendar day">Day 1</li>
-				<li class="calendar day">Day 2</li>
-				<li class="calendar day">Day 3</li>
-				<li class="calendar day">Day 4</li>
-				<li class="calendar day">Day 5</li>
-				<li class="calendar day">Day 7</li>
-				<li class="calendar day">Day 7</li>
-			</ul>
-			<ul class="calendar week">
-				<li class="calendar day">Day 1</li>
-				<li class="calendar day">Day 2</li>
-				<li class="calendar day">Day 3</li>
-				<li class="calendar day">Day 4</li>
-				<li class="calendar day">Day 5</li>
-				<li class="calendar day">Day 7</li>
-				<li class="calendar day">Day 7</li>
-			</ul>
+				<li class="calendar day">
+					<span class="li-text">Day 1</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 2</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 3</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 4</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 5</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+			</ul>			<ul class="calendar week">
+				<li class="calendar day">
+					<span class="li-text">Day 1</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 2</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 3</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 4</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 5</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+			</ul>			<ul class="calendar week">
+				<li class="calendar day">
+					<span class="li-text">Day 1</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 2</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 3</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 4</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 5</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+			</ul>		
 		</main>`;
 	} else if (count ===3) {
 		nextWireframeHtml = ``; 
