@@ -1,15 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-	<title>HTML Wireframe</title>
-</head>
-<body>
-	<button class="next-wireframe-button">NEXT WIREFRAME</button>
-	<div class="wireframe-content">
-		<section class="hero landing-page-section">
+let count = 0
+$('.next-wireframe-button').on('click', () => {
+	let nextWireframeHtml;
+	count++
+	if (count === 1) {
+		nextWireframeHtml = `<nav>
+			<div class="burger-icon">[Menu]</div>
+			<h3>StrengthExchange</h3>
+		</nav>
+		<section class="dashboard">
+			<header><h2>Joe Bloggs' Workouts</h2></header>
+			<main class="workouts">
+				<ul>
+					<li>
+						<span class="li-text">Jumbo Body</span>
+					</li>
+					<li>
+						<span class="li-text">Sort-of Toned</span>
+					</li>
+					<li>
+						<span class="li-text">Spherical Powerlifter</span>
+					</li>
+					<li>
+						<span class="li-text">Big Arms For Christmas</span>
+					</li>
+					<li>
+						<span class="li-text">Home Gym Mayhem</span>
+					</li>
+					<li>
+						<span class="li-text">Gymnast in a Week</span>
+					</li>
+					<li>
+						<span class="li-text">Press Your Car</span>
+					</li>
+				</ul>
+			</main>
+		</section>`;
+	} else if (count === 2) {
+		nextWireframeHtml = ``;
+	} else {
+		nextWireframeHtml = `
+			<section class="hero landing-page-section">
 			<h1>StrengthExchange</h1>
 		</section>
 		<section class="description landing-page-section">
@@ -36,8 +66,8 @@
 				<input type="submit" name="sign up">
 			</form>
 		</section>
-	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="index.js"></script>
-</body>
-</html>
+	`;
+		count = 0;
+	}
+	$('.wireframe-content').html(nextWireframeHtml)
+});

@@ -1,6 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+.next-wireframe-button {
+	position: fixed;
+	top: 10px;
+	left: 50%;
+	z-index: 500;
+	cursor: pointer;
+}
+
 body {
 	margin: 0;
-	box-sizing: border-box;
+	height: 100%;
+	background-color: grey;
+}
+
+nav {
+	position: fixed;
+	background-color: #323252;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 80px;
+	top: 0;
+	z-index: 1;
+}
+
+nav .burger-icon {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border: solid grey 2px;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+	color: white;
+	font-size: 0.7em;
+}
+
+nav h3 {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	color: #FEFFE4;
+	text-shadow: 1.5px 1.5px black;
+	font-size: 2em;
+	position: relative;
+	left: 10%;
+	top: 39px;
 }
 
 .landing-page-section {
@@ -14,7 +62,8 @@ body {
 }
 
 .landing-page-section h1, .landing-page-section p, 
-.landing-page-section label, .landing-page-section h2 {
+.landing-page-section label, .landing-page-section h2,
+.dashboard {
 	color: #FEFFE4;
 }
 
@@ -76,6 +125,62 @@ body {
 .login-signup form input:after {
 	content:"test";
 }
+
+.dashboard {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+
+.dashboard header {
+	width: 100%;
+	background: #323232;
+	height: 200px;
+	margin-top: 80px;
+}
+
+.dashboard header h2 {
+	padding-top: 75px;
+	font-size: 3em;
+	margin: 0;
+}
+
+.workouts {
+  position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -20px;	
+	list-style: none;
+	background-color: #323222;
+}
+
+.workouts ul {
+	display: flex;
+  flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	list-style-type: none;
+}
+
+.workouts ul li {
+	width: 110px;
+	height: 110px;
+	margin: 10px;
+	border: 3px red solid;
+	cursor: pointer;
+}
+
+.workouts ul li .li-text {
+	padding: 7px;
+	position: relative;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 
 
 .description {
