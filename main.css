@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.landing-page-section {
+	position: relative;
+	width: 100%;
+	background: #323232;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -40px;
+	height: 340px;
+}
+
+.landing-page-section h1, .landing-page-section p, 
+.landing-page-section label, .landing-page-section h2 {
+	color: #FEFFE4;
+}
+
+.landing-page-section h1 {
+	padding-top: 150px;
+	font-size: 3em;
+	line-height: 0;
+}
+
+.landing-page-section p {
+	font-size: 1.3em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 40px;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.login-signup {
+	background-color: #332417;
+	height: 430px;
+}
+
+.login-signup h2, .login-signup form {
+	position: relative;
+}
+
+.login-signup h2 {
+	font-size: 1.7em;
+	padding-top: 35px;
+}
+
+.login-signup p {
+	top: 0px;
+	text-align: center;
+	padding: 0;
+	padding-top: 40px;
+	width: 50%;
+}
+
+.login-signup form {
+	top: -10px;
+}
+
+.login-signup form label {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.login-signup form label:after, .login-signup form input:after {
+  content:"\a";
+  white-space: pre;
+} 
+
+.login-signup form input:after {
+	content:"test";
+}
+
+
+.description {
+	background: #323222;
+}
+
+@media only screen and (max-width: 500px) {
+	.hero {
+		width: 100%;
+	}
+	
+	.hero h1 {
+		font-size: 1.9em
+	}
+
+	.landing-page-section p {
+		padding: 40px;
+		font-size: 1em;
+	}
+
+}
