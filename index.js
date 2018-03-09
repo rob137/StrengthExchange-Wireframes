@@ -36,7 +36,76 @@ $('.next-wireframe-button').on('click', () => {
 			</main>
 		</section>`;
 	} else if (count === 2) {
-		nextWireframeHtml = ``;
+		nextWireframeHtml = `<nav>
+				<div class="burger-icon">[Menu]</div>
+				<h3>StrengthExchange</h3>
+		</nav>
+		<header class="program-calendar-header">
+			<h2>Joe Bloggs' Beach Workout</h2>
+		</header>
+		<main class="program-calendar">
+			<ul class="calendar week">
+				<li class="calendar day">
+					<span class="li-text">Day 1</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 2</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 3</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 4</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 5</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+			</ul>
+			<ul class="calendar week">
+				<li class="calendar day">Day 1</li>
+				<li class="calendar day">Day 2</li>
+				<li class="calendar day">Day 3</li>
+				<li class="calendar day">Day 4</li>
+				<li class="calendar day">Day 5</li>
+				<li class="calendar day">Day 7</li>
+				<li class="calendar day">Day 7</li>
+			</ul>
+			<ul class="calendar week">
+				<li class="calendar day">Day 1</li>
+				<li class="calendar day">Day 2</li>
+				<li class="calendar day">Day 3</li>
+				<li class="calendar day">Day 4</li>
+				<li class="calendar day">Day 5</li>
+				<li class="calendar day">Day 7</li>
+				<li class="calendar day">Day 7</li>
+			</ul>
+			<ul class="calendar week">
+				<li class="calendar day">Day 1</li>
+				<li class="calendar day">Day 2</li>
+				<li class="calendar day">Day 3</li>
+				<li class="calendar day">Day 4</li>
+				<li class="calendar day">Day 5</li>
+				<li class="calendar day">Day 7</li>
+				<li class="calendar day">Day 7</li>
+			</ul>
+			<ul class="calendar week">
+				<li class="calendar day">Day 1</li>
+				<li class="calendar day">Day 2</li>
+				<li class="calendar day">Day 3</li>
+				<li class="calendar day">Day 4</li>
+				<li class="calendar day">Day 5</li>
+				<li class="calendar day">Day 7</li>
+				<li class="calendar day">Day 7</li>
+			</ul>
+		</main>`;
+	} else if (count ===3) {
+		nextWireframeHtml = ``; 
 	} else {
 		nextWireframeHtml = `
 			<section class="hero landing-page-section">
