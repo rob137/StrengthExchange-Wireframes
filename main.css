@@ -33,7 +33,7 @@ nav .burger-icon {
 	height: 40px;
 	border: solid grey 2px;
 	top: 20px;
-	left: 20px;
+	left: 30px;
 	cursor: pointer;
 	color: white;
 	font-size: 0.7em;
@@ -47,7 +47,7 @@ nav h3 {
 	text-shadow: 1.5px 1.5px black;
 	font-size: 2em;
 	position: relative;
-	left: 10%;
+	left: 90px;
 	top: 39px;
 }
 
@@ -148,7 +148,7 @@ nav h3 {
 }
 
 .workouts, .program-calendar {
-  position: relative;
+	position: relative;
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
@@ -159,18 +159,34 @@ nav h3 {
 
 .workouts ul, .program-calendar ul {
 	display: flex;
+	justify-content: center; 
+	align-items: center; 
   flex-wrap: wrap;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	list-style-type: none;
 }
 
-.workouts ul li, .program-calendar ul li {
+.workouts ul li {
+width: 120px;
+	height: 120px;
+	
+}
+
+.program-calendar ul li {
 	width: 80px;
 	height: 80px;
+	
+}
+
+.workouts ul li, .program-calendar ul li {
 	margin: 10px;
 	border: 3px red solid;
 	cursor: pointer;
+}
+
+.li-text {
+	color: white;
 }
 
 .workouts ul li .li-text,
