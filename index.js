@@ -2,13 +2,18 @@ let count = 0
 $('.next-wireframe-button').on('click', () => {
 	let nextWireframeHtml;
 	count++
+
+	// DASHBOARD
 	if (count === 1) {
-		nextWireframeHtml = `<nav>
+		nextWireframeHtml = `
+
+
+		<nav>
 			<div class="burger-icon">[Menu]</div>
 			<h3>StrengthExchange</h3>
 		</nav>
 		<section class="dashboard">
-			<header><h2>Joe Bloggs' Workouts</h2></header>
+			<header class="dashboard-header"><h2>Joe Bloggs' Workouts</h2></header>
 			<main class="workouts">
 				<ul>
 					<li>
@@ -34,14 +39,19 @@ $('.next-wireframe-button').on('click', () => {
 					</li>
 				</ul>
 			</main>
-		</section>`;
+		</section>
+
+
+		`;
+
+	// EDIT WORKOUT PROGRAM
 	} else if (count === 2) {
 		nextWireframeHtml = `<nav>
 				<div class="burger-icon">[Menu]</div>
 				<h3>StrengthExchange</h3>
 		</nav>
 		<header class="program-calendar-header">
-			<h2>Joe Bloggs' Beach Workout</h2>
+			<h2>Joe Bloggs' Beach Workout Program</h2>
 		</header>
 		<main class="program-calendar">
 			<ul class="calendar week">
@@ -135,11 +145,16 @@ $('.next-wireframe-button').on('click', () => {
 				</li>
 			</ul>		
 		</main>`;
+
+	// EDIT INDIVIDUAL WORKOUT
 	} else if (count ===3) {
 		nextWireframeHtml = ``; 
+	
+	// LANDING PAGE (index.html)
 	} else {
 		nextWireframeHtml = `
-			<section class="hero landing-page-section">
+<div class="wireframe-content">
+		<section class="hero landing-page-section">
 			<h1>StrengthExchange</h1>
 		</section>
 		<section class="description landing-page-section">
@@ -153,7 +168,7 @@ $('.next-wireframe-button').on('click', () => {
 		</section>
 		<section class="login-signup landing-page-section">
 			<h2>Sign Up</h2>
-			<p>Already registered? Click <a>here</a> to sign in</p>
+			<p>Already registered? Click <a href="blank">here</a> to sign in</p>
 			<form>
 				<label for="name">Name</label><br>
 				<input id="name" type="text" name=""><br>
@@ -166,6 +181,9 @@ $('.next-wireframe-button').on('click', () => {
 				<input type="submit" name="sign up">
 			</form>
 		</section>
+	</div>
+
+
 	`;
 		count = 0;
 	}

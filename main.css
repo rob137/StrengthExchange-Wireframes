@@ -63,14 +63,18 @@ nav h3 {
 
 .landing-page-section h1, .landing-page-section p, 
 .landing-page-section label, .landing-page-section h2,
-.dashboard {
+.dashboard, .li-text {
 	color: #FEFFE4;
 }
 
 .landing-page-section h1 {
 	padding-top: 150px;
-	font-size: 3em;
 	line-height: 0;
+}
+
+.landing-page-section h1, .dashboard-header h2, 
+.program-calendar-header h2 {
+	font-size: 3em;
 }
 
 .landing-page-section p {
@@ -185,9 +189,6 @@ width: 120px;
 	cursor: pointer;
 }
 
-.li-text {
-	color: white;
-}
 
 .workouts ul li .li-text,
 .program-calendar ul li .li-text {
@@ -201,7 +202,7 @@ width: 120px;
 .program-calendar-header {
 	width: 100%;
 	background: #323232;
-	height: 100px;
+	height: 180px;
 	margin-top: 80px;
 }
 
