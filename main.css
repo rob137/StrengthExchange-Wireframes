@@ -73,7 +73,8 @@ nav h3 {
 }
 
 .landing-page-section h1, .dashboard-header h2, 
-.program-calendar-header h2 {
+.program-calendar-header h2,
+.edit-workout-header h2 {
 	font-size: 3em;
 }
 
@@ -113,11 +114,13 @@ nav h3 {
 	text-align: center;
 }
 
-.login-signup form {
+.login-signup form.
+.edit-individual-workout form {
 	padding-bottom: 50px;
 }
 
-.login-signup form label {
+.login-signup form label,
+.edit-individual-workout form label {
 	display: inline-block;
 	position: relative;
 	text-align: left;
@@ -134,15 +137,17 @@ nav h3 {
 	margin-top: -20px;
 }
 
-.dashboard header {
+.dashboard header, .program-calendar-header, .edit-workout-header {
 	width: 100%;
 	background: #323232;
-	height: 200px;
+	height: 180px;
 	margin-top: 80px;
 }
 
-.dashboard header h2 {
-	padding-top: 75px;
+.dashboard header h2, .program-calendar-header h2, .edit-workout-header h2 {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 	font-size: 3em;
 	margin: 0;
 }
@@ -196,16 +201,8 @@ width: 120px;
 	transform: translateY(-50%);
 }
 
-.program-calendar-header {
-	width: 100%;
-	background: #323232;
-	height: 180px;
-	margin-top: 80px;
-}
-
-.program-calendar-header h2 {
+.program-calendar-header h2, .edit-workout-header {
 	color: #FEFFE4;
-	padding: 40px;
 	text-align: center;
 }
 
@@ -215,6 +212,12 @@ width: 120px;
 
 .description {
 	background: #323222;
+}
+
+.edit-individual-workout form {
+	margin: 0 auto;
+	text-align: center;
+
 }
 
 @media only screen and (max-width: 500px) {
