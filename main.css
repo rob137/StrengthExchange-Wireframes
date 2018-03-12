@@ -227,8 +227,8 @@ width: 120px;
 	margin-bottom: -35px;
 }
 
-button {
-	color: black;
+button, .submit-button {
+	color: black !important;
 }
 
 .calendar-week {
