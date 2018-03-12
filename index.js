@@ -130,7 +130,7 @@ function rotateWireframe() {
 			</ul>
 			<button class="add-week">Add a week</button>
 			<button class="remove-week">Remove final week</button>
-			
+			</main>
 				<footer><span>Footer</span><footer/>
 `;
 

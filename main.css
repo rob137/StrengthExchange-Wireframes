@@ -213,6 +213,7 @@ width: 120px;
 
 .program-calendar {
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .program-calendar-header h2, .edit-exercise-header,
@@ -229,10 +230,6 @@ width: 120px;
 button {
 	color: black;
 }
-.program-calendar .add-week,
-.program-calendar .remove-week {
-	margin-bottom: 40px;
-}
 
 .calendar-week {
 	padding:0;
@@ -243,6 +240,7 @@ button {
 }
 
 footer {
+	display: block;
 	height: 40px;
 	width: 100%;
 	background-color: grey;
