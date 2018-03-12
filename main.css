@@ -13,7 +13,6 @@
 body {
 	margin: 0;
 	height: 100%;
-	background-color: grey;
 }
 
 nav {
@@ -63,7 +62,8 @@ nav h3 {
 
 .landing-page-section h1, .landing-page-section p, 
 .landing-page-section label, .landing-page-section h2,
-.dashboard, .li-text {
+.dashboard, .li-text, .edit-individual-workout label,
+.edit-individual-workout h2 {
 	color: #FEFFE4;
 }
 
@@ -89,18 +89,16 @@ nav h3 {
 	text-align: justify;
 }
 
-.login-signup {
+.login-signup, .edit-individual-workout {
 	background-color: #332417;
-	height: 430px;
-	padding-bottom: 50px;
+	height: 500px;
 }
 
 .login-signup h2, .login-signup form {
 	position: relative;
 }
 
-.login-signup h2 {
-	font-size: 1.7em;
+.login-signup h2, .edit-individual-workout h2 {
 	padding-top: 50px;
 }
 
@@ -112,11 +110,6 @@ nav h3 {
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
-}
-
-.login-signup form.
-.edit-individual-workout form {
-	padding-bottom: 50px;
 }
 
 .login-signup form label,
@@ -137,22 +130,24 @@ nav h3 {
 	margin-top: -20px;
 }
 
-.dashboard header, .program-calendar-header, .edit-workout-header {
+.dashboard-header, .program-calendar-header, .edit-workout-header {
 	width: 100%;
 	background: #323232;
 	height: 180px;
 	margin-top: 80px;
 }
 
-.dashboard header h2, .program-calendar-header h2, .edit-workout-header h2 {
+.dashboard-header h2, .program-calendar-header h2, .edit-workout-header h2 {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 	font-size: 3em;
 	margin: 0;
+	padding: 0 10px 0 10px;
 }
 
-.workouts, .program-calendar {
+.workouts, .program-calendar, 
+.edit-individual-workout {
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -182,7 +177,6 @@ width: 120px;
 .program-calendar ul li {
 	width: 80px;
 	height: 80px;
-	
 }
 
 .workouts ul li, .program-calendar ul li {
@@ -214,11 +208,22 @@ width: 120px;
 	background: #323222;
 }
 
-.edit-individual-workout form {
-	margin: 0 auto;
+footer {
+	height: 40px;
+	width: 100%;
+	background-color: grey;
 	text-align: center;
-
 }
+
+footer span {
+	display: inline;
+	line-height: 0;
+	position: relative;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 
 @media only screen and (max-width: 500px) {
 	
@@ -229,10 +234,18 @@ width: 120px;
 	.hero {
 		width: 100%;
 	}
+
+	.landing-page-section h1 {
+		font-size: 2em;
+	}
 	
-	.hero h1,	.landing-page-section h1, .dashboard-header h2, 
-	.program-calendar-header h2 {
-		font-size: 1.9em;
+	nav h3 {
+		font-size: 1.4em;
+	}
+
+	.dashboard-header h2, 
+	.program-calendar-header h2, .edit-workout-header h2 {
+		font-size: 1.7em;
 	}
 
 	.landing-page-section p {
