@@ -130,6 +130,38 @@ nav h3 {
 	height: 150px;
 }
 
+.edit-exercise-form input {
+	width: 80px;
+}
+
+.edit-exercise-form .workout-notes {
+	width: 300px;
+	height: 300px;
+}
+
+.edit-exercise-form button, .edit-exercise-form .submit-button {
+	width: 120px;
+}  
+
+/*
+For editing 'notes' box placeholder
+.edit-exercise-form .workout-notes::-webkit-input-placeholder {
+   
+}
+
+edit-exercise-form .workout-notes:-moz-placeholder { 
+
+}
+
+edit-exercise-form .workout-notes::-moz-placeholder {
+
+}
+
+edit-exercise-form .workout-notes:-ms-input-placeholder {  
+
+}
+*/
+
 /* Dashboard */
 .dashboard {
 	position: relative;
