@@ -139,17 +139,15 @@ nav h3 {
 .dashboard-header, .program-calendar-header, .edit-workout-header {
 	width: 100%;
 	background: #323232;
-	height: 180px;
+	min-height: 180px;
 	margin-top: 80px;
 }
 
 .dashboard-header h2, .program-calendar-header h2, .edit-workout-header h2 {
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 	font-size: 3em;
-	margin: 0;
-	padding: 0 10px 0 10px;
+	padding: 50px;
+	margin: 10px;
 }
 
 .workouts, .program-calendar, 
