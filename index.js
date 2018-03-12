@@ -51,6 +51,7 @@ function rotateWireframe() {
 		<section class="dashboard">
 			<header class="dashboard-header"><h2>Joe Bloggs' Workouts</h2></header>
 			<main class="workouts">
+				<button class="add-workout-button">Add new workout</button>
 				<ul>
 					<li>
 						<span class="li-text">Jumbo Body</span>
@@ -92,6 +93,7 @@ function rotateWireframe() {
 			<h2>Joe Bloggs' Beach Workout Program</h2>
 		</header>
 		<main class="program-calendar">
+			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
 					<span class="li-text">Day 1</span>
@@ -115,6 +117,7 @@ function rotateWireframe() {
 					<span class="li-text">Day 7</span>
 				</li>
 			</ul>
+						<h3 class="week-heading">Week 2</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
 					<span class="li-text">Day 1</span>
@@ -138,6 +141,7 @@ function rotateWireframe() {
 					<span class="li-text">Day 7</span>
 				</li>
 			</ul>
+						<h3 class="week-heading">Week 3</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
 					<span class="li-text">Day 1</span>
@@ -154,6 +158,16 @@ function rotateWireframe() {
 				<li class="calendar day">
 					<span class="li-text">Day 5</span>
 				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 6</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Day 7</span>
+				</li>
+			</ul>
+			<button class="add-week">Add a week</button>
+			<button class="remove-week">Remove final week</button>
+			
 				<footer><span>Footer</span><footer/>
 `;
 

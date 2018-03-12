@@ -64,7 +64,7 @@ nav h3 {
 .landing-page-section h1, .landing-page-section p, 
 .landing-page-section label, .landing-page-section h2,
 .dashboard, .li-text, .edit-individual-workout label,
-.edit-individual-workout h2 {
+.edit-individual-workout h2, .program-calendar h3 {
 	color: #FEFFE4;
 }
 
@@ -158,6 +158,10 @@ nav h3 {
 	background-color: #323222;
 }
 
+.add-workout-button {
+	margin-top: 30px;	
+}
+
 .workouts ul, .program-calendar ul {
 	display: flex;
 	justify-content: center; 
@@ -195,9 +199,23 @@ width: 120px;
 	transform: translateY(-50%);
 }
 
+.program-calendar {
+	padding-top: 30px;
+}
+
 .program-calendar-header h2, .edit-workout-header {
 	color: #FEFFE4;
 	text-align: center;
+}
+
+.program-calendar h3 {
+	position: relative;
+	margin-bottom: -35px;
+}
+
+.program-calendar .add-week,
+.program-calendar .remove-week {
+	margin-bottom: 40px;
 }
 
 .calendar-week {
