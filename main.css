@@ -77,7 +77,7 @@ nav h3 {
 	font-size: 3em;
 }
 
-.landing-page-section p {
+.description p {
 	font-size: 1.3em;
 	position: relative;
 	top: 50%;
@@ -91,6 +91,7 @@ nav h3 {
 .login-signup {
 	background-color: #332417;
 	height: 430px;
+	padding-bottom: 50px;
 }
 
 .login-signup h2, .login-signup form {
@@ -99,19 +100,21 @@ nav h3 {
 
 .login-signup h2 {
 	font-size: 1.7em;
-	padding-top: 35px;
+	padding-top: 50px;
 }
 
 .login-signup p {
-	top: 0px;
 	text-align: center;
-	padding: 0;
-	padding-top: 40px;
 	width: 50%;
+	font-size: 1.3em;
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .login-signup form {
-	top: -10px;
+	padding-bottom: 50px;
 }
 
 .login-signup form label {
@@ -121,15 +124,8 @@ nav h3 {
 	padding-top: 10px;
 }
 
-.login-signup form label:after, .login-signup form input:after {
-  content:"\a";
-  white-space: pre;
-} 
 
-.login-signup form input:after {
-	content:"test";
-}
-
+/* Dashboard */
 .dashboard {
 	position: relative;
 	width: 100%;
@@ -168,6 +164,7 @@ nav h3 {
   flex-wrap: wrap;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 0;
 	list-style-type: none;
 }
 
@@ -212,22 +209,41 @@ width: 120px;
 	text-align: center;
 }
 
+.calendar-week {
+	padding:0;
+}
+
 .description {
 	background: #323222;
 }
 
 @media only screen and (max-width: 500px) {
+	
+	body {
+		width: 100%;
+	}
+
 	.hero {
 		width: 100%;
 	}
 	
-	.hero h1 {
-		font-size: 1.9em
+	.hero h1,	.landing-page-section h1, .dashboard-header h2, 
+	.program-calendar-header h2 {
+		font-size: 1.9em;
 	}
 
 	.landing-page-section p {
-		padding: 40px;
+		padding: 20px;
 		font-size: 1em;
+		margin: 0 auto;
+		
+	}
+	.landing-page-section {
+		padding: 0;
 	}
 
+
+	.login-signup {
+		height: 500px;
+	}
 }

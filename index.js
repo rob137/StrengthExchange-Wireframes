@@ -46,7 +46,9 @@ $('.next-wireframe-button').on('click', () => {
 
 	// EDIT WORKOUT PROGRAM
 	} else if (count === 2) {
-		nextWireframeHtml = `<nav>
+		nextWireframeHtml = `
+	
+		<nav>
 				<div class="burger-icon">[Menu]</div>
 				<h3>StrengthExchange</h3>
 		</nav>
@@ -54,8 +56,8 @@ $('.next-wireframe-button').on('click', () => {
 			<h2>Joe Bloggs' Beach Workout Program</h2>
 		</header>
 		<main class="program-calendar">
-			<ul class="calendar week">
-				<li class="calendar day">
+			<ul class="calendar-week">
+				<li class="calendar-day">
 					<span class="li-text">Day 1</span>
 				</li>
 				<li class="calendar day">
@@ -71,14 +73,14 @@ $('.next-wireframe-button').on('click', () => {
 					<span class="li-text">Day 5</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 7</span>
+					<span class="li-text">Day 6</span>
 				</li>
 				<li class="calendar day">
 					<span class="li-text">Day 7</span>
 				</li>
 			</ul>
-			<ul class="calendar week">
-				<li class="calendar day">
+			<ul class="calendar-week">
+				<li class="calendar-day">
 					<span class="li-text">Day 1</span>
 				</li>
 				<li class="calendar day">
@@ -94,13 +96,14 @@ $('.next-wireframe-button').on('click', () => {
 					<span class="li-text">Day 5</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 7</span>
+					<span class="li-text">Day 6</span>
 				</li>
 				<li class="calendar day">
 					<span class="li-text">Day 7</span>
 				</li>
-			</ul>			<ul class="calendar week">
-				<li class="calendar day">
+			</ul>
+			<ul class="calendar-week">
+				<li class="calendar-day">
 					<span class="li-text">Day 1</span>
 				</li>
 				<li class="calendar day">
@@ -115,36 +118,8 @@ $('.next-wireframe-button').on('click', () => {
 				<li class="calendar day">
 					<span class="li-text">Day 5</span>
 				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 7</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 7</span>
-				</li>
-			</ul>			<ul class="calendar week">
-				<li class="calendar day">
-					<span class="li-text">Day 1</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 2</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 3</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 4</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 5</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 7</span>
-				</li>
-				<li class="calendar day">
-					<span class="li-text">Day 7</span>
-				</li>
-			</ul>		
-		</main>`;
+
+`;
 
 	// EDIT INDIVIDUAL WORKOUT
 	} else if (count ===3) {
@@ -153,12 +128,15 @@ $('.next-wireframe-button').on('click', () => {
 	// LANDING PAGE (index.html)
 	} else {
 		nextWireframeHtml = `
-<div class="wireframe-content">
+		
+
+	<div class="wireframe-content">
 		<section class="hero landing-page-section">
 			<h1>StrengthExchange</h1>
 		</section>
 		<section class="description landing-page-section">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<p class="description-para">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -178,10 +156,12 @@ $('.next-wireframe-button').on('click', () => {
 				<input id="password" type="text" name=""><br>
 				<label for="confirm-password">Confirm password</label><br>
 				<input id="confirm-password" type="text" name=""><br><br>
-				<input type="submit" name="sign up">
+				<input type="submit" name="sign up" class="submit-button">
 			</form>
 		</section>
 	</div>
+
+
 
 
 	`;
