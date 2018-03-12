@@ -1,46 +1,9 @@
-let count = 0
+let count = 3;
 
 function rotateWireframe() {
 	let nextWireframeHtml;
 	
-	if (count === 0) {
-		nextWireframeHtml = `
-
-	<section class="hero landing-page-section">
-			<h1>StrengthExchange</h1>
-		</section>
-		<section class="description landing-page-section">
-			<p class="description-para">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</section>
-		<section class="login-signup landing-page-section">
-			<h2>Sign Up</h2>
-			<p>Already registered? Click <a href="blank">here</a> to sign in</p>
-			<form>
-				<label for="name">Name</label><br>
-				<input id="name" type="text" name=""><br>
-				<label for="email">Email</label><br>
-				<input id="email" type="text" name=""><br>
-				<label for="password">Password</label><br>
-				<input id="password" type="text" name=""><br>
-				<label for="confirm-password">Confirm password</label><br>
-				<input id="confirm-password" type="text" name=""><br><br>
-				<input type="submit" name="sign up" class="submit-button">
-			</form>
-		</section>
-	<footer><p>Footer</p><footer/>
-
-		`
-	}
-
-	// DASHBOARD
-	else if (count === 1) {
+	if (count === 1) {
 		nextWireframeHtml = `
 
 
@@ -205,11 +168,46 @@ function rotateWireframe() {
 		`; 
 	
 	// LANDING PAGE (index.html)
-	} else {
+	} else if (count === 4) {
 		nextWireframeHtml = `
 		
+					<nav>
+		<div class="burger-icon">[Menu]</div>
+		<h3>StrengthExchange</h3>
+	</nav>
+	<header class="edit-workout-header">
+		<h2>Joe Bloggs' Beach Workout - Day 5</h2>
+	</header>
+	<main class="edit-individual-workout">
+		<form>
+			<h2>Edit workout</h2>
+			<label>Exercise</label><br>
+			<input type="text" name=""><br>
+			<label>Weight</label><br>
+			<input type="number" name=""><br>
+			<label>Reps</label><br>
+			<input type="number" name=""><br>
+			<label>Sets</label><br>
+			<input type="number" name=""><br>
+			<label>Notes</label><br>
+			<input type="text" name=""><br><br>
+			<input type="submit" value="Add To Workout" name="Add">
+			<button>Cancel</button>
+		</form>
+	</main>
+	<footer><span>Footer</span><footer/>
 
-	<div class="wireframe-content">
+
+	`;
+		
+	} else {
+
+		nextWireframeHtml = `
+
+
+
+
+		<div class="wireframe-content">
 		<section class="hero landing-page-section">
 			<h1>StrengthExchange</h1>
 		</section>
@@ -243,12 +241,13 @@ function rotateWireframe() {
 
 
 
-	`;
-		count = 0;
+
+		 `
+		 count = 0 
 	}
-	console.log(count);
 	$('.wireframe-content').html(nextWireframeHtml);
 	count++
+	console.log(1);
 }
 
 $(rotateWireframe)
