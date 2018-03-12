@@ -14,7 +14,7 @@ function rotateWireframe() {
 		<section class="dashboard">
 			<header class="dashboard-header"><h2>Joe Bloggs' Workouts</h2></header>
 			<main class="workouts">
-				<button class="add-workout-button">Add new workout</button>
+				<button class="add-workout-button">Create new workout</button>
 				<ul>
 					<li>
 						<span class="li-text">Jumbo Body</span>
@@ -53,7 +53,7 @@ function rotateWireframe() {
 				<h3>StrengthExchange</h3>
 		</nav>
 		<header class="program-calendar-header">
-			<h2>Joe Bloggs' Beach Workout Program</h2>
+			<h2>Beach Workout Program</h2>
 		</header>
 		<main class="program-calendar">
 			<h3 class="week-heading">Week 1</h3>
@@ -134,63 +134,35 @@ function rotateWireframe() {
 				<footer><span>Footer</span><footer/>
 `;
 
-	// EDIT INDIVIDUAL WORKOUT
 	} else if (count ===3) {
 		nextWireframeHtml = `
-			<nav>
-		<div class="burger-icon">[Menu]</div>
-		<h3>StrengthExchange</h3>
-	</nav>
-	<header class="edit-workout-header">
-		<h2>Joe Bloggs' Beach Workout - Day 5</h2>
-	</header>
-	<main class="edit-individual-workout">
-		<form>
-			<h2>Edit workout</h2>
-			<label>Exercise</label><br>
-			<input type="text" name=""><br>
-			<label>Weight</label><br>
-			<input type="number" name=""><br>
-			<label>Reps</label><br>
-			<input type="number" name=""><br>
-			<label>Sets</label><br>
-			<input type="number" name=""><br>
-			<label>Time</label><br>
-			<input type="time" name=""><br>
-			<label>Notes</label><br>
-			<input type="text" name=""><br><br>
-			<input type="submit" value="Add To Workout" name="Add">
-			<button>Cancel</button>
-		</form>
-	</main>
-	<footer><span>Footer</span><footer/>
+
 
 		`; 
 	
-	// LANDING PAGE (index.html)
+	// EDIT INDIVIDUAL WORKOUT
 	} else if (count === 4) {
 		nextWireframeHtml = `
-		
 					<nav>
 		<div class="burger-icon">[Menu]</div>
 		<h3>StrengthExchange</h3>
 	</nav>
 	<header class="edit-workout-header">
-		<h2>Joe Bloggs' Beach Workout - Day 5</h2>
+		<h2>Beach Workout - Day 5</h2>
 	</header>
 	<main class="edit-individual-workout">
 		<form>
 			<h2>Edit workout</h2>
-			<label>Exercise</label><br>
-			<input type="text" name=""><br>
-			<label>Weight</label><br>
-			<input type="number" name=""><br>
-			<label>Reps</label><br>
-			<input type="number" name=""><br>
-			<label>Sets</label><br>
-			<input type="number" name=""><br>
-			<label>Notes</label><br>
-			<input type="text" name=""><br><br>
+			<label for="exercise">Exercise</label><br>
+			<input type="text" id="exercise"><br>
+			<label for="weight">Weight</label><br>
+			<input type="number" id="weight"><br>
+			<label for="reps">Reps</label><br>
+			<input type="number" id="reps"><br>
+			<label for="sets">Sets</label><br>
+			<input type="number" id="sets"><br>
+			<label for="notes">Notes</label><br>
+			<input class="workout-notes" type="text" id="notes"><br><br>
 			<input type="submit" value="Add To Workout" name="Add">
 			<button>Cancel</button>
 		</form>
@@ -199,7 +171,8 @@ function rotateWireframe() {
 
 
 	`;
-		
+
+	// LANDING PAGE (index.html)		
 	} else {
 
 		nextWireframeHtml = `

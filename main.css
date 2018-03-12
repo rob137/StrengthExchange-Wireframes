@@ -97,7 +97,8 @@ nav h3 {
 
 .login-signup, .edit-individual-workout {
 	background-color: #332417;
-	height: 500px;
+	min-height: 500px;
+	padding-bottom: 30px;
 }
 
 .login-signup h2, .login-signup form {
@@ -126,6 +127,9 @@ nav h3 {
 	padding-top: 10px;
 }
 
+.edit-individual-workout form .workout-notes {
+	height: 150px;
+}
 
 /* Dashboard */
 .dashboard {
