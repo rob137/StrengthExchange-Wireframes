@@ -182,13 +182,13 @@ function rotateWireframe() {
 	<main class="individual-workout">
 		<button>Delete this workout</button>
 		<p><span>53</span> users have signed-up to this workout so far.</p>
-		<p class="workout-summary">Your summary: This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
+		<p class="workout-summary">Your summary: <br>"This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
 		to practise form.  You are unlikely to need a belt, but you should wear one if it will be needed to ensure you complete all sets.  The deadlifts are strictly optional.  You should only attempt them if you feel up to the task today.  There will be plenty of 
-		chances to make up for this later - today's main goal is active rest.</p><br>
-		<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit</edit><button>Remove</button>  
+		chances to make up for this later - today's main goal is active rest."<button>Edit</button></p><br>
+		<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button>  
 		<br><span class="exercise-comments">Your comments: Do not perform pause squats.</span> </p> <br>
-		<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit</edit><button>Remove</button></p> <br>
-		<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit</edit><button>Remove</button>
+		<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button></p> <br>
+		<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit<button>Remove</button>
 		<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
 		<button>Add exercise</button>
 		<br> <br>
