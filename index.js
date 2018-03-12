@@ -1,4 +1,4 @@
-let count = 3;
+let count = 0;
 
 function rotateWireframe() {
 	let nextWireframeHtml;
@@ -134,25 +134,48 @@ function rotateWireframe() {
 				<footer><span>Footer</span><footer/>
 `;
 
+// INDIVIDUAL WORKOUT VIEW
 	} else if (count ===3) {
 		nextWireframeHtml = `
+	<nav>
+		<div class="burger-icon">[Menu]</div>
+		<h3>StrengthExchange</h3>
+	</nav>
+	
+
+	<header class="workout-header">
+		<h2>Beach Workout - Day 5</h2>
+	</header>
+	
+	<main class="individual-workout">
+		<p class="workout-comments">Comments: This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
+		to practise form.  You are unlikely to need a belt, but you should wear one if it will be needed to ensure you complete all sets.  The deadlifts are strictly optional.  You should only attempt them if you feel up to the task today.  There will be plenty of 
+		chances to make up for this later - today's main goal is active rest.</p><br>
+		<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit</edit><button>Remove</button>  
+		<br><span class="exercise-comments">Comments: Do not perform pause squats.</span> </p> <br>
+		<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit</edit><button>Remove</button></p> <br>
+		<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit</edit><button>Remove</button>
+		<br><span class="exercise-comments">Comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
+		<button>Add exercise</button>
+	</main>
+	<footer><span>Footer</span><footer/>
 
 
 		`; 
 	
-	// EDIT INDIVIDUAL WORKOUT
+	// EDIT INDIVIDUAL EXERCISE
 	} else if (count === 4) {
 		nextWireframeHtml = `
 					<nav>
 		<div class="burger-icon">[Menu]</div>
 		<h3>StrengthExchange</h3>
 	</nav>
-	<header class="edit-workout-header">
+	<header class="edit-exercise-header">
 		<h2>Beach Workout - Day 5</h2>
 	</header>
-	<main class="edit-individual-workout">
+	<main class="edit-individual-exercise">
 		<form>
-			<h2>Edit workout</h2>
+			<h2>Edit exercise</h2>
 			<label for="exercise">Exercise</label><br>
 			<input type="text" id="exercise"><br>
 			<label for="weight">Weight</label><br>
