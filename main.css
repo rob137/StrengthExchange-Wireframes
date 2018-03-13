@@ -161,24 +161,6 @@ nav h3 {
 	width: 120px;
 }  
 
-/*
-For editing 'notes' box placeholder
-.edit-exercise-form .workout-notes::-webkit-input-placeholder {
-   
-}
-
-edit-exercise-form .workout-notes:-moz-placeholder { 
-
-}
-
-edit-exercise-form .workout-notes::-moz-placeholder {
-
-}
-
-edit-exercise-form .workout-notes:-ms-input-placeholder {  
-
-}
-*/
 
 /* Dashboard */
 .dashboard {
@@ -210,8 +192,7 @@ edit-exercise-form .workout-notes:-ms-input-placeholder {
 	position: relative;
 	width: 100%;
 	text-align: center;
-	margin: 0 auto;
-	margin-top: -20px;	
+	margin: 0 auto;	
 	list-style: none;
 	background-color: #636363;
 	padding-top: 40px;
@@ -414,10 +395,31 @@ footer span {
 		font-size: 1.7em;
 	}
 
+	.description {
+		padding: 20px;
+	}
+
+	.edit-program-calendar-sidebar,
+	.edit-workout-sidebar {
+		min-width: 85%;
+	}
+
+	.close-sidebar-widget {
+		position: fixed;
+		right: 81%;
+		width: 40px;
+		height: 40px;
+		font-size: 2.1em;
+	}
+
 	.landing-page-section p {
 		padding: 20px;
 		font-size: 1em;
 		margin: 0 auto;
+	}
+
+	.edit-workout-sidebar form .workout-summary {
+		min-width: 210px;
 	}
 
 	.workout-notes {

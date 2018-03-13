@@ -85,7 +85,7 @@ function rotateWireframe() {
 			</main>
 		</section>
 		<section class="edit-program-calendar-sidebar">
-			<a class="close-sidebar-widget">></a>
+			<a class="close-sidebar-widget close-sidebar-widget-1">></a>
 			
 				<header class="sidebar-header">
 					<h2>Press Your Car</h2>
@@ -212,7 +212,7 @@ function rotateWireframe() {
 			</main>
 		</section>
 		<section class="edit-program-calendar-sidebar">
-			<a class="close-sidebar-widget">></a>
+			<a class="close-sidebar-widget close-sidebar-widget-1">></a>
 			
 				<header class="sidebar-header">
 					<h2>Press Your Car</h2>
@@ -298,7 +298,7 @@ function rotateWireframe() {
 				
 	
 	<section class="edit-workout-sidebar">
-			<a class="close-sidebar-widget">></a>
+			<a class="close-sidebar-widget close-sidebar-widget-2">></a>
 		
 		<header class="sidebar-header">
 			<h2>Press Your Car <br> Fri Week 1</h2>
@@ -322,9 +322,9 @@ function rotateWireframe() {
 		</tr>
 		<tr>
 			<td><input type="text" value="Squat" placeholder="Exercise"></td>
-			<td><input type="text" value="130" placeholder="Weight"></td>
-			<td><input type="text" value="5" placeholder="Reps"></td>
-			<td><input type="text" value="3" placeholder="Sets"></td>
+			<td><input type="number" value="130" placeholder="Weight"></td>
+			<td><input type="number" value="5" placeholder="Reps"></td>
+			<td><input type="number" value="3" placeholder="Sets"></td>
 		</tr>
 		<tr>
 			<td colspan="4"><textarea type="text" class="comments-box" value="" placeholder="Your Comments"></textarea></td>
@@ -332,9 +332,9 @@ function rotateWireframe() {
 
 		<tr>
 			<td><input type="text" value="Press" placeholder="Exercise"></td>
-			<td><input type="text" value="60" placeholder="Weight"></td>
-			<td><input type="text" value="5" placeholder="Reps"></td>
-			<td><input type="text" value="3" placeholder="Sets"></td>
+			<td><input type="number" value="60" placeholder="Weight"></td>
+			<td><input type="number" value="5" placeholder="Reps"></td>
+			<td><input type="number" value="3" placeholder="Sets"></td>
 		</tr>
 		<tr>
 			<td colspan="4"><textarea type="text" class="comments-box" value="" placeholder="Your Comments"></textarea></td>
@@ -342,9 +342,9 @@ function rotateWireframe() {
 
 		<tr>
 			<td><input type="text" value="" placeholder="Exercise"></td>
-			<td><input type="text" value="" placeholder="Weight"></td>
-			<td><input type="text" value="" placeholder="Reps"></td>
-			<td><input type="text" value="" placeholder="Sets"></td>
+			<td><input type="number" value="" placeholder="Weight"></td>
+			<td><input type="number" value="" placeholder="Reps"></td>
+			<td><input type="number" value="" placeholder="Sets"></td>
 		</tr>
 		<tr>
 			<td colspan="4"><textarea type="text" class="comments-box" value="" placeholder="Your Comments"></textarea></td>
