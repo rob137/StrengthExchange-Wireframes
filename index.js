@@ -12,7 +12,7 @@ function rotateWireframe() {
 			<h3>StrengthExchange</h3>
 		</nav>
 		<section class="dashboard">
-			<header class="dashboard-header"><h2>Joe Bloggs' Workouts</h2></header>
+			<header class="dashboard-header"><h2>Joe Bloggs' Workout Programs</h2></header>
 			<main class="workouts">
 				<button class="add-workout-button">Create new workout</button>
 				<ul>
@@ -60,73 +60,73 @@ function rotateWireframe() {
 			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Day 1</span>
+					<span class="li-text">Mon</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 2</span>
+					<span class="li-text">Tue</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 3</span>
+					<span class="li-text">Wed</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 4</span>
+					<span class="li-text">Thu</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 5</span>
+					<span class="li-text">Fri</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 6</span>
+					<span class="li-text">Sat</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 7</span>
+					<span class="li-text">Sun</span>
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 2</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Day 1</span>
+					<span class="li-text">Mon</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 2</span>
+					<span class="li-text">Tue</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 3</span>
+					<span class="li-text">Wed</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 4</span>
+					<span class="li-text">Thu</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 5</span>
+					<span class="li-text">Fri</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 6</span>
+					<span class="li-text">Sat</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 7</span>
+					<span class="li-text">Sun</span>
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 3</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Day 1</span>
+					<span class="li-text">Mon</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 2</span>
+					<span class="li-text">Tue</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 3</span>
+					<span class="li-text">Wed</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 4</span>
+					<span class="li-text">Thu</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 5</span>
+					<span class="li-text">Fri</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 6</span>
+					<span class="li-text">Sat</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Day 7</span>
+					<span class="li-text">Sun</span>
 				</li>
 			</ul>
 			<button class="add-week">Add a week</button>
@@ -145,7 +145,7 @@ function rotateWireframe() {
 	
 
 	<header class="workout-header">
-		<h2>Beach Workout - Day 5</h2>
+		<h2>Beach Workout <br> Fri Week 1</h2>
 	</header>
 	
 	<main class="individual-workout">
@@ -176,7 +176,7 @@ function rotateWireframe() {
 	
 
 	<header class="workout-header">
-		<h2>Beach Workout - Day 5</h2>
+		<h2>Beach Workout - Fri</h2>
 	</header>
 	
 	<main class="individual-workout">

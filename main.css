@@ -25,7 +25,7 @@ body {
 
 nav {
 	position: fixed;
-	background-color: #323252;
+	background-color: #A2A2A2;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -92,7 +92,7 @@ nav h3 {
 }
 
 .login-signup, .edit-individual-exercise, .individual-workout {
-	background-color: #332417;
+	background-color: #6D6D6D;
 	min-height: 500px;
 	padding-bottom: 30px;
 	padding-left: 40px;
@@ -196,7 +196,7 @@ edit-exercise-form .workout-notes:-ms-input-placeholder {
 	margin: 0 auto;
 	margin-top: -20px;	
 	list-style: none;
-	background-color: #323222;
+	background-color: #636363;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -268,7 +268,7 @@ button, .submit-button {
 }
 
 .description {
-	background: #323222;
+	background: #636363;
 }
 
 footer {
