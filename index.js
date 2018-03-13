@@ -256,8 +256,7 @@ function rotateWireframe() {
 		 count = 0 
 	}
 	$('.wireframe-content').html(nextWireframeHtml);
-	count++
-	console.log(1);
+	count++;
 }
 
 $(rotateWireframe)
