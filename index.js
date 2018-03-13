@@ -97,93 +97,93 @@ function rotateWireframe() {
 			<ul class="calendar-week">
 				<li class="calendar-day">
 					<span class="li-day">Mon</span>
-					<img src="images/squat.png" alt="Squat">
+					<img src="./images/squat.png" alt="Squat">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Tue</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Wed</span>
-					<img src="images/chinup.png" alt="Chinup">
+					<img src="./images/chinup.png" alt="Chinup">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Thu</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Fri</span>
-					<img src="images/row.jpg" alt="Row">
+					<img src="./images/row.jpg" alt="Row">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Sat</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Sun</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 2</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
 					<span class="li-day">Mon</span>
-					<img src="images/front-squat.png" alt="Front squat">
+					<img src="./images/front-squat.png" alt="Front squat">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Tue</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Wed</span>
-					<img src="images/powerclean.jpg" alt="Powerclean">
+					<img src="./images/powerclean.jpg" alt="Powerclean">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Thu</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Fri</span>
-					<img src="images/pushup.png" alt="Pushup">
+					<img src="./images/pushup.png" alt="Pushup">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Sat</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Sun</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 3</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
 					<span class="li-day">Mon</span>
-					<img src="images/press.jpg" alt="Press">
+					<img src="./images/press.jpg" alt="Press">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Tue</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Wed</span>
-					<img src="images/pullup.png" alt="Pullup">
+					<img src="./images/pullup.png" alt="Pullup">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Thu</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Fri</span>
-					<img src="images/row.jpg" alt="Row">
+					<img src="./images/row.jpg" alt="Row">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Sat</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
 					<span class="li-day">Sun</span>
-					<img src="images/pillow.jpg" alt="Rest">
+					<img src="./images/pillow.jpg" alt="Rest">
 				</li>
 			</ul>
 			<button class="add-week">Add a week</button>
