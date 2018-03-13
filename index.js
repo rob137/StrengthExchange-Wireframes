@@ -1,4 +1,4 @@
-let count = 0;
+let count = 3;
 
 function rotateWireframe() {
 	let nextWireframeHtml;
@@ -47,15 +47,44 @@ function rotateWireframe() {
 	// EDIT WORKOUT PROGRAM
 	} else if (count === 2) {
 		nextWireframeHtml = `
-	
-		<nav>
-				<div class="burger-icon">[Menu]</div>
-				<h3>StrengthExchange</h3>
+			<nav>
+			<div class="burger-icon">[Menu]</div>
+			<h3>StrengthExchange</h3>
 		</nav>
-		<header class="program-calendar-header">
-			<h2>Beach Workout Program</h2>
-		</header>
-		<main class="program-calendar">
+		
+		
+		<section class="dashboard">
+			<header class="dashboard-header"><h2>Joe Bloggs' Workout Programs</h2></header>
+			<main class="workouts">
+				<button class="add-workout-button">Create new workout</button>
+				<ul>
+					<li>
+						<span class="li-text">Jumbo Body</span>
+					</li>
+					<li>
+						<span class="li-text">Sort-of Toned</span>
+					</li>
+					<li>
+						<span class="li-text">Spherical Powerlifter</span>
+					</li>
+					<li>
+						<span class="li-text">Big Arms For Christmas</span>
+					</li>
+					<li>
+						<span class="li-text">Home Gym Mayhem</span>
+					</li>
+					<li>
+						<span class="li-text">Gymnast in a Week</span>
+					</li>
+					<li>
+						<span class="li-text">Press Your Car</span>
+					</li>
+				</ul>
+			</main>
+		</section>
+		<section class="edit-program-calendar-sidebar">
+			<a class="close-sidebar-widget">></a>
+			<h2>Press Your Car</h2>
 			<button>Delete this workout program</button>
 			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
@@ -131,85 +160,152 @@ function rotateWireframe() {
 			</ul>
 			<button class="add-week">Add a week</button>
 			<button class="remove-week">Remove final week</button>
-			</main>
+			</section>
 				<footer><span>Footer</span><footer/>
 `;
 
 // INDIVIDUAL WORKOUT VIEW
-	} else if (count ===3) {
+	} else if (count === 3) {
 		nextWireframeHtml = `
 	<nav>
-		<div class="burger-icon">[Menu]</div>
-		<h3>StrengthExchange</h3>
-	</nav>
+			<div class="burger-icon">[Menu]</div>
+			<h3>StrengthExchange</h3>
+		</nav>
+		
+		
+		<section class="dashboard">
+			<header class="dashboard-header"><h2>Joe Bloggs' Workout Programs</h2></header>
+			<main class="workouts">
+				<button class="add-workout-button">Create new workout</button>
+				<ul>
+					<li>
+						<span class="li-text">Jumbo Body</span>
+					</li>
+					<li>
+						<span class="li-text">Sort-of Toned</span>
+					</li>
+					<li>
+						<span class="li-text">Spherical Powerlifter</span>
+					</li>
+					<li>
+						<span class="li-text">Big Arms For Christmas</span>
+					</li>
+					<li>
+						<span class="li-text">Home Gym Mayhem</span>
+					</li>
+					<li>
+						<span class="li-text">Gymnast in a Week</span>
+					</li>
+					<li>
+						<span class="li-text">Press Your Car</span>
+					</li>
+				</ul>
+			</main>
+		</section>
+		<section class="edit-program-calendar-sidebar">
+			<a class="close-sidebar-widget">></a>
+			<h2>Press Your Car</h2>
+			<button>Delete this workout program</button>
+			<h3 class="week-heading">Week 1</h3>
+			<ul class="calendar-week">
+				<li class="calendar-day">
+					<span class="li-text">Mon</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Tue</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Wed</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Thu</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Fri</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Sat</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Sun</span>
+				</li>
+			</ul>
+						<h3 class="week-heading">Week 2</h3>
+			<ul class="calendar-week">
+				<li class="calendar-day">
+					<span class="li-text">Mon</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Tue</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Wed</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Thu</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Fri</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Sat</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Sun</span>
+				</li>
+			</ul>
+						<h3 class="week-heading">Week 3</h3>
+			<ul class="calendar-week">
+				<li class="calendar-day">
+					<span class="li-text">Mon</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Tue</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Wed</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Thu</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Fri</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Sat</span>
+				</li>
+				<li class="calendar day">
+					<span class="li-text">Sun</span>
+				</li>
+			</ul>
+			<button class="add-week">Add a week</button>
+			<button class="remove-week">Remove final week</button>
+			</section>
+				<footer><span>Footer</span><footer/>
 	
-
-	<header class="workout-header">
-		<h2>Beach Workout <br> Fri Week 1</h2>
-	</header>
-	
-	<main class="individual-workout">
-		<button>Delete this workout</button>
-		<p><span>53</span> users have signed-up to this workout so far.</p>
-	<p class="workout-summary">Your summary: <br>"This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
-		to practise form.  You are unlikely to need a belt, but you should wear one if it will be needed to ensure you complete all sets.  The deadlifts are strictly optional.  You should only attempt them if you feel up to the task today.  There will be plenty of 
-		chances to make up for this later - today's main goal is active rest."<button>Edit</button></p><br>
-		<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button>  
-		<br><span class="exercise-comments">Your comments: Do not perform pause squats.</span> </p> <br>
-		<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button></p> <br>
-		<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit<button>Remove</button>
-		<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
-		<button>Add exercise</button>
-	</main>
-	<footer><span>Footer</span><footer/>
-
+	<section class="edit-workout-sidebar">
+			<a class="close-sidebar-widget">></a>
+		
+		<header class="workout-header">
+			<h2>Beach Workout <br> Fri Week 1</h2>
+		</header>
+		
+		<main class="individual-workout">
+			<button>Delete this workout</button>
+			<p><span>53</span> users have signed-up to this workout so far.</p>
+		<p class="workout-summary">Your summary: <br>"This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
+			to practise form.  You are unlikely to need a belt, but you should wear one if it will be needed to ensure you complete all sets.  The deadlifts are strictly optional.  You should only attempt them if you feel up to the task today.  There will be plenty of 
+			chances to make up for this later - today's main goal is active rest."<button>Edit</button></p><br>
+			<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button>  
+			<br><span class="exercise-comments">Your comments: Do not perform pause squats.</span> </p> <br>
+			<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button></p> <br>
+			<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit<button>Remove</button>
+			<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
+			<button>Add exercise</button>
+		</main>
+	</section
 
 		`; 
-	
-	// EDIT INDIVIDUAL EXERCISE
-	} else if (count === 4) {
-		nextWireframeHtml = `
-	<nav>
-		<div class="burger-icon">[Menu]</div>
-		<h3>StrengthExchange</h3>
-	</nav>
-	
-
-	<header class="workout-header">
-		<h2>Beach Workout - Fri</h2>
-	</header>
-	
-	<main class="individual-workout">
-		<button>Delete this workout</button>
-		<p><span>53</span> users have signed-up to this workout so far.</p>
-		<p class="workout-summary">Your summary: <br>"This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
-		to practise form.  You are unlikely to need a belt, but you should wear one if it will be needed to ensure you complete all sets.  The deadlifts are strictly optional.  You should only attempt them if you feel up to the task today.  There will be plenty of 
-		chances to make up for this later - today's main goal is active rest."<button>Edit</button></p><br>
-		<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button>  
-		<br><span class="exercise-comments">Your comments: Do not perform pause squats.</span> </p> <br>
-		<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button></p> <br>
-		<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit<button>Remove</button>
-		<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
-		<button>Add exercise</button>
-		<br> <br>
-		<div class="form-wrapper">
-			<form class="edit-exercise-form">
-				<input placeholder="Exercise" type="text" id="exercise">
-				<input placeholder="Weight" type="number" id="weight">
-				<input placeholder="Reps" type="number" id="reps">
-				<input placeholder="Sets" type="number" id="sets"><br>
-				<input placeholder="Notes" class="workout-notes" type="text" id="notes"><br>
-				<input type="submit" class="submit-button" value="Add To Workout" name="Add">
-				<button>Cancel</button>
-			</form>
-		</div>
-
-	</main>
-	<footer><span>Footer</span><footer/>
-
-					
-
-	`;
 
 	// LANDING PAGE (index.html)		
 	} else {

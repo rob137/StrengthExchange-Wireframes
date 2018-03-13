@@ -140,8 +140,8 @@ nav h3 {
 	position: relative;
 	text-align: left;
 	padding-top: 10px;
-	margin-bottom: -14px;
-	margin-left: 10px;
+	margin-bottom: -16px;
+	margin-left: 6px;
 }
 
 .edit-individual-exercise form .workout-notes {
@@ -224,7 +224,7 @@ edit-exercise-form .workout-notes:-ms-input-placeholder {
 	color: black;
 }
 
-.workouts ul, .program-calendar ul {
+.workouts ul, .edit-program-calendar-sidebar ul {
 	display: flex;
 	justify-content: center; 
 	align-items: center; 
@@ -240,12 +240,12 @@ width: 120px;
 	
 }
 
-.program-calendar ul li {
+.edit-program-calendar-sidebar ul li {
 	width: 80px;
 	height: 80px;
 }
 
-.workouts ul li, .program-calendar ul li {
+.workouts ul li, .edit-program-calendar-sidebar ul li {
 	margin: 10px;
 	border: 3px red solid;
 	cursor: pointer;
@@ -253,7 +253,7 @@ width: 120px;
 
 
 .workouts ul li .li-text,
-.program-calendar ul li .li-text {
+.edit-program-calendar-sidebar ul li .li-text {
 	padding: 7px;
 	position: relative;
 	display: block;
@@ -261,10 +261,51 @@ width: 120px;
 	transform: translateY(-50%);
 }
 
-.program-calendar {
+.edit-program-calendar-sidebar {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	position: fixed;
+	top: 80px;
+	background: #484848;
+	min-width: 60%;
+	max-width: 85%;
+	width: 700px;
+	right: 0;
+	z-index: 5;
+	height: calc(100% - 80px);
+	overflow-y: scroll;
+	text-align: center;
 }
+
+.close-sidebar-widget {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #CCCCCC;
+	z-index: 10;
+	cursor: pointer;
+	font-size: 2.5em;
+}
+
+.edit-workout-sidebar {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: fixed;
+	top: 80px;
+	background: #929292;
+	min-width: 50%;
+	max-width: 70%;
+	width: 450px;
+	right: 0;
+	z-index: 5;
+	height: calc(100% - 80px);
+	overflow-y: scroll;
+	text-align: center;
+}
+
 
 .program-calendar-header h2, .edit-exercise-header,
 .workout-header {
@@ -272,13 +313,24 @@ width: 120px;
 	text-align: center;
 }
 
-.program-calendar h3 {
+.edit-program-calendar-sidebar h3 {
 	position: relative;
 	margin-bottom: -35px;
 }
-
+/*
+.screen-shader {
+	position: absolute;
+	background-color: black;
+	opacity: 0.5;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index:4;
+}
+*/
 button, .submit-button {
-	color: black !important;
+	color: black;
 }
 
 .calendar-week {
@@ -298,7 +350,7 @@ footer {
 }
 
 footer span {
-	color: black;
+	font-weight: bold;
 	display: inline;
 	line-height: 0;
 	position: relative;
