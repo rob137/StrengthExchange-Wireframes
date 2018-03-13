@@ -1,8 +1,9 @@
-let count = 0;
+let count = 2;
 
 function rotateWireframe() {
 	let nextWireframeHtml;
 	
+	//view workouts
 	if (count === 1) {
 		nextWireframeHtml = `
 
@@ -44,8 +45,69 @@ function rotateWireframe() {
 
 		`;
 
-	// EDIT WORKOUT PROGRAM
 	} else if (count === 2) {
+
+		nextWireframeHtml = `
+
+<div class="screen-shader"></div>
+
+			<nav>
+			<div class="burger-icon">[Menu]</div>
+			<h3>StrengthExchange</h3>
+		</nav>
+		
+		
+		<section class="dashboard">
+			<header class="dashboard-header"><h2>Joe Bloggs' Workout Programs</h2></header>
+			<main class="workouts">
+				<button class="add-workout-button">Create new workout</button>
+				<ul>
+					<li>
+						<span class="li-program-name vertical-center">Jumbo Body</span>
+					</li>
+					<li>
+						<span class="li-program-name vertical-center">Sort-of Toned</span>
+					</li>
+					<li>
+						<span class="li-program-name vertical-center">Spherical Powerlifter</span>
+					</li>
+					<li>
+						<span class="li-program-name vertical-center">Big Arms For Christmas</span>
+					</li>
+					<li>
+						<span class="li-program-name vertical-center">Home Gym Mayhem</span>
+					</li>
+					<li>
+						<span class="li-program-name vertical-center">Gymnast in a Week</span>
+					</li>
+					<li>
+						<span class="li-program-name vertical-center">Press Your Car</span>
+					</li>
+				</ul>
+			</main>
+		</section>
+		<section class="add-program-sidebar">
+			<a class="close-sidebar-widget vertical-center close-sidebar-widget vertical-center-1">></a>
+			
+				<header class="sidebar-header">
+					<h2>Add Workout Program</h2>
+				</header>
+				
+
+				<form class="horizontal-center"> 
+					<label for="program-name">Program name</label>
+					<input type="text" id="program-name" placeholder>
+				</form>
+			
+			<button class="create-program-button">Create</button>
+			<button class="cancel-create-program-button">Cancel</button>
+			</section>
+				<footer><span>Footer</span><footer/>
+
+		`
+
+	// EDIT WORKOUT PROGRAM
+	} else if (count === 3) {
 		nextWireframeHtml = `
 		<div class="screen-shader"></div>
 
@@ -193,7 +255,7 @@ function rotateWireframe() {
 `;
 
 // INDIVIDUAL WORKOUT VIEW
-	} else if (count === 3) {
+	} else if (count === 4) {
 		nextWireframeHtml = `
 		<div class="screen-shader"></div>
 

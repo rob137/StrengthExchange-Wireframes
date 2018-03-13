@@ -254,7 +254,8 @@ nav h3 {
 	display: block;
 }
 
-.edit-program-calendar-sidebar {
+.edit-program-calendar-sidebar,
+.add-program-sidebar {
 	
 	padding-bottom: 30px;
 	position: fixed;
@@ -298,9 +299,22 @@ nav h3 {
 
 
 
-.edit-program-calendar-sidebar h3 {
+.edit-program-calendar-sidebar h3, 
+.add-program-sidebar h3 {
 	position: relative;
 	margin-bottom: -35px;
+}
+
+.add-program-sidebar form {
+	padding-top: 40px;
+	width: 250px;
+	text-align: center;
+}
+
+.add-program-sidebar form label, 
+.add-program-sidebar input {
+	display: inline-block;
+	text-align: center;
 }
 
 input, textarea {
@@ -410,7 +424,8 @@ footer span {
 		padding: 20px;
 	}
 
-	.edit-program-calendar-sidebar,
+	.edit-program-calendar-sidebar, 
+	.add-program-sidebar,
 	.edit-workout-sidebar {
 		min-width: 85%;
 	}
