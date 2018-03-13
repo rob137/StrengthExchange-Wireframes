@@ -109,6 +109,7 @@ nav h3 {
 
 .login-signup h2, .form-wrapper form {
 	position: relative;
+	padding-bottom: 20px;
 }
 
 .form-wrapper {
@@ -124,11 +125,12 @@ nav h3 {
 .login-signup p {
 	text-align: center;
 	width: 50%;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	position: relative;
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 
