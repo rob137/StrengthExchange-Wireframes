@@ -192,15 +192,17 @@ function rotateWireframe() {
 		<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
 		<button>Add exercise</button>
 		<br> <br>
-		<form class="edit-exercise-form">
-			<input placeholder="Exercise" type="text" id="exercise">
-			<input placeholder="Weight" type="number" id="weight">
-			<input placeholder="Reps" type="number" id="reps">
-			<input placeholder="Sets" type="number" id="sets"><br>
-			<input placeholder="Notes" class="workout-notes" type="text" id="notes"><br>
-			<input type="submit" class="submit-button" value="Add To Workout" name="Add">
-			<button>Cancel</button>
-		</form>
+		<div class="form-wrapper">
+			<form class="edit-exercise-form">
+				<input placeholder="Exercise" type="text" id="exercise">
+				<input placeholder="Weight" type="number" id="weight">
+				<input placeholder="Reps" type="number" id="reps">
+				<input placeholder="Sets" type="number" id="sets"><br>
+				<input placeholder="Notes" class="workout-notes" type="text" id="notes"><br>
+				<input type="submit" class="submit-button" value="Add To Workout" name="Add">
+				<button>Cancel</button>
+			</form>
+		</div>
 
 	</main>
 	<footer><span>Footer</span><footer/>
@@ -234,17 +236,19 @@ function rotateWireframe() {
 		<section class="login-signup landing-page-section">
 			<h2>Sign Up</h2>
 			<p>Already registered? Click <a href="blank">here</a> to sign in</p>
-			<form>
-				<label for="name">Name</label><br>
-				<input id="name" type="text" name=""><br>
-				<label for="email">Email</label><br>
-				<input id="email" type="text" name=""><br>
-				<label for="password">Password</label><br>
-				<input id="password" type="text" name=""><br>
-				<label for="confirm-password">Confirm password</label><br>
-				<input id="confirm-password" type="text" name=""><br><br>
-				<input type="submit" name="sign up" class="submit-button">
-			</form>
+			<div class="form-wrapper">
+				<form>
+					<label for="name">Name</label><br>
+					<input id="name" type="text" name=""><br>
+					<label for="email">Email</label><br>
+					<input id="email" type="text" name=""><br>
+					<label for="password">Password</label><br>
+					<input id="password" type="text" name=""><br>
+					<label for="confirm-password">Confirm password</label><br>
+					<input id="confirm-password" type="text" name=""><br><br>
+					<input type="submit" name="sign up" class="submit-button">
+				</form>
+			</div>
 		</section>
 	</div>
 	<footer><span>Footer</span><footer/>

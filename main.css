@@ -98,9 +98,7 @@ nav h3 {
 .login-signup, .edit-individual-exercise, .individual-workout {
 	background-color: #6D6D6D;
 	min-height: 500px;
-	padding-bottom: 30px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding: 400px 40px 400px 40px;
 }
 
 .login-signup {
@@ -108,8 +106,18 @@ nav h3 {
 	padding-bottom: 50px;
 }
 
-.login-signup h2, .login-signup form {
+.login-signup h2, .form-wrapper form {
 	position: relative;
+}
+
+.form-wrapper {
+	padding-top: 0px;
+	padding-bottom: 40px;
+	position: relative;
+	width: 180px;
+	left: 50%;
+	transform: translateX(-50%);
+
 }
 
 .login-signup p {
@@ -122,12 +130,15 @@ nav h3 {
 	text-align: center;
 }
 
+
 .login-signup form label,
 .edit-individual-exercise form label {
-	display: inline-block;
+	display: block;
 	position: relative;
 	text-align: left;
 	padding-top: 10px;
+	margin-bottom: -14px;
+	margin-left: 10px;
 }
 
 .edit-individual-exercise form .workout-notes {
@@ -294,25 +305,25 @@ footer span {
 }
 
 
+
 @media only screen and (max-width: 500px) {
 	
 	body {
 		width: 100%;
 	}
 
-	.hero {
-		width: 100%;
-	}
-
 	.landing-page-section h1 {
 		font-size: 2em;
+		line-height: 0;
+		padding: 0;
+		margin: 0;
 	}
 	
 	nav h3 {
 		font-size: 1.4em;
 	}
 
-	.dashboard-header h2, 
+	.dashboard-header h2, .workout-header h2,
 	.program-calendar-header h2, .edit-exercise-header h2 {
 		font-size: 1.7em;
 	}
@@ -321,14 +332,13 @@ footer span {
 		padding: 20px;
 		font-size: 1em;
 		margin: 0 auto;
-		
-	}
-	.landing-page-section {
-		padding: 0;
 	}
 
+	.workout-notes {
+		max-width: 180px;
+	}
 
-	.login-signup {
-		min-height: 200px;
+	.login-signup h2 {
+		margin: 0;
 	}
 }
