@@ -312,6 +312,25 @@ width: 120px;
 	position: relative;
 	margin-bottom: -35px;
 }
+
+input {
+	color: black;
+}
+
+.edit-workout-sidebar form {
+	margin: 0 auto;
+	text-align: center;
+}
+.workout-table {
+	margin: 0 auto;
+}
+
+.workout-table .comments-box {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
 /*
 .screen-shader {
 	position: absolute;

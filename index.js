@@ -297,21 +297,56 @@ function rotateWireframe() {
 			<a class="close-sidebar-widget">></a>
 		
 		<header class="sidebar-header">
-			<h2>Beach Workout <br> Fri Week 1</h2>
+			<h2>Press Your Car <br> Fri Week 1</h2>
 		</header>
 		
 		<main class="individual-workout">
 			<button>Delete this workout</button>
 			<p><span>53</span> users have signed-up to this workout so far.</p>
-		<p class="workout-summary">Your summary: <br>"This is a medium effort day following Wedesday's harder session.  Use the squats as a chance 
-			to practise form.  You are unlikely to need a belt, but you should wear one if it will be needed to ensure you complete all sets.  The deadlifts are strictly optional.  You should only attempt them if you feel up to the task today.  There will be plenty of 
-			chances to make up for this later - today's main goal is active rest."<button>Edit</button></p><br>
-			<p><span class="exercise-details">Squat - 130kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button>  
-			<br><span class="exercise-comments">Your comments: Do not perform pause squats.</span> </p> <br>
-			<p><span class="exercise-details">Overhead Press - 60kg - 3 sets of 5 reps.</span><button>Edit<button>Remove</button></p> <br>
-			<p><span class="exercise-details">Deadlift - 160kg - 1 set of 5 reps.</span><button>Edit<button>Remove</button>
-			<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
-			<button>Add exercise</button>
+
+
+<form>
+	<table class="workout-table">
+		<tr>
+			<th>Exercise</th>
+			<th>Weight</th>
+			<th>Reps</th>
+			<th>Sets</th>
+		</tr>
+		<tr>
+			<td><input type="text" value="words" placeholder="Exercise"></td>
+			<td><input type="text" value="130" placeholder="Weight"></td>
+			<td><input type="text" value="5" placeholder="Reps"></td>
+			<td><input type="text" value="3" placeholder="Sets"></td>
+		</tr>
+		<tr>
+			<td colspan="4"><input type="text" class="comments-box" value="" placeholder="Your Comments"></td>
+		</tr>
+
+		<tr>
+			<td><input type="text" value="" placeholder="Exercise"></td>
+			<td><input type="text" value="" placeholder="Weight"></td>
+			<td><input type="text" value="" placeholder="Reps"></td>
+			<td><input type="text" value="" placeholder="Sets"></td>
+		</tr>
+		<tr>
+			<td colspan="4"><input type="text" class="comments-box" value="" placeholder="Your Comments"></td>
+		</tr>
+
+		<tr>
+			<td><input type="text" value="" placeholder="Exercise"></td>
+			<td><input type="text" value="" placeholder="Weight"></td>
+			<td><input type="text" value="" placeholder="Reps"></td>
+			<td><input type="text" value="" placeholder="Sets"></td>
+		</tr>
+		<tr>
+			<td colspan="4"><input type="text" class="comments-box" value="" placeholder="Your Comments"></td>
+		</tr>
+	</table>
+</form>
+<br><button>Add exercise</button>
+<br><button> Save changes </button>
+
 		</main>
 	</section>
 	<footer><span>Footer</span><footer/>
