@@ -1,4 +1,4 @@
-let count = 2;
+let count = 0;
 
 function rotateWireframe() {
 	let nextWireframeHtml;
