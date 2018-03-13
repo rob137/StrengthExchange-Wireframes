@@ -84,7 +84,12 @@ function rotateWireframe() {
 		</section>
 		<section class="edit-program-calendar-sidebar">
 			<a class="close-sidebar-widget">></a>
-			<h2>Press Your Car</h2>
+			
+				<header class="sidebar-header">
+					<h2>Press Your Car</h2>
+				</header>
+
+			
 			<button>Delete this workout program</button>
 			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
@@ -167,7 +172,7 @@ function rotateWireframe() {
 // INDIVIDUAL WORKOUT VIEW
 	} else if (count === 3) {
 		nextWireframeHtml = `
-	<nav>
+				<nav>
 			<div class="burger-icon">[Menu]</div>
 			<h3>StrengthExchange</h3>
 		</nav>
@@ -204,7 +209,12 @@ function rotateWireframe() {
 		</section>
 		<section class="edit-program-calendar-sidebar">
 			<a class="close-sidebar-widget">></a>
-			<h2>Press Your Car</h2>
+			
+				<header class="sidebar-header">
+					<h2>Press Your Car</h2>
+				</header>
+
+			
 			<button>Delete this workout program</button>
 			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
@@ -281,12 +291,12 @@ function rotateWireframe() {
 			<button class="add-week">Add a week</button>
 			<button class="remove-week">Remove final week</button>
 			</section>
-				<footer><span>Footer</span><footer/>
+				
 	
 	<section class="edit-workout-sidebar">
 			<a class="close-sidebar-widget">></a>
 		
-		<header class="workout-header">
+		<header class="sidebar-header">
 			<h2>Beach Workout <br> Fri Week 1</h2>
 		</header>
 		
@@ -303,7 +313,8 @@ function rotateWireframe() {
 			<br><span class="exercise-comments">Your comments: Optional.  Only attempt if you feel well-rested.</span> </p> <br>
 			<button>Add exercise</button>
 		</main>
-	</section
+	</section>
+	<footer><span>Footer</span><footer/>
 
 		`; 
 
