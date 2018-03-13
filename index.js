@@ -47,6 +47,8 @@ function rotateWireframe() {
 	// EDIT WORKOUT PROGRAM
 	} else if (count === 2) {
 		nextWireframeHtml = `
+		<div class="screen-shader"></div>
+
 			<nav>
 			<div class="burger-icon">[Menu]</div>
 			<h3>StrengthExchange</h3>
@@ -172,6 +174,8 @@ function rotateWireframe() {
 // INDIVIDUAL WORKOUT VIEW
 	} else if (count === 3) {
 		nextWireframeHtml = `
+		<div class="screen-shader"></div>
+
 				<nav>
 			<div class="burger-icon">[Menu]</div>
 			<h3>StrengthExchange</h3>
@@ -306,7 +310,8 @@ function rotateWireframe() {
 
 
 <form>
-	<textarea class="workout-summary" type="text" value="" placeholder="Your Summary"></textarea>
+	<label for="workout-summary">Your Summary</label><br>
+	<textarea class="workout-summary" id="workout-summary" type="text" value="" placeholder="Your Summary"></textarea>
 	<br><br>
 	<table class="workout-table">
 		<tr>

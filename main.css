@@ -348,7 +348,7 @@ input, textarea {
 	overflow: scroll;
 }
 
-/*
+
 .screen-shader {
 	position: absolute;
 	background-color: black;
@@ -359,7 +359,7 @@ input, textarea {
 	width: 100%;
 	z-index:4;
 }
-*/
+
 button, .submit-button {
 	color: black;
 }
