@@ -306,6 +306,8 @@ function rotateWireframe() {
 
 
 <form>
+	<textarea class="workout-summary" type="text" value="" placeholder="Your Summary"></textarea>
+	<br><br>
 	<table class="workout-table">
 		<tr>
 			<th>Exercise</th>
@@ -314,13 +316,23 @@ function rotateWireframe() {
 			<th>Sets</th>
 		</tr>
 		<tr>
-			<td><input type="text" value="words" placeholder="Exercise"></td>
+			<td><input type="text" value="Squat" placeholder="Exercise"></td>
 			<td><input type="text" value="130" placeholder="Weight"></td>
 			<td><input type="text" value="5" placeholder="Reps"></td>
 			<td><input type="text" value="3" placeholder="Sets"></td>
 		</tr>
 		<tr>
-			<td colspan="4"><input type="text" class="comments-box" value="" placeholder="Your Comments"></td>
+			<td colspan="4"><textarea type="text" class="comments-box" value="" placeholder="Your Comments"></textarea></td>
+		</tr>
+
+		<tr>
+			<td><input type="text" value="Press" placeholder="Exercise"></td>
+			<td><input type="text" value="60" placeholder="Weight"></td>
+			<td><input type="text" value="5" placeholder="Reps"></td>
+			<td><input type="text" value="3" placeholder="Sets"></td>
+		</tr>
+		<tr>
+			<td colspan="4"><textarea type="text" class="comments-box" value="" placeholder="Your Comments"></textarea></td>
 		</tr>
 
 		<tr>
@@ -330,21 +342,11 @@ function rotateWireframe() {
 			<td><input type="text" value="" placeholder="Sets"></td>
 		</tr>
 		<tr>
-			<td colspan="4"><input type="text" class="comments-box" value="" placeholder="Your Comments"></td>
-		</tr>
-
-		<tr>
-			<td><input type="text" value="" placeholder="Exercise"></td>
-			<td><input type="text" value="" placeholder="Weight"></td>
-			<td><input type="text" value="" placeholder="Reps"></td>
-			<td><input type="text" value="" placeholder="Sets"></td>
-		</tr>
-		<tr>
-			<td colspan="4"><input type="text" class="comments-box" value="" placeholder="Your Comments"></td>
+			<td colspan="4"><textarea type="text" class="comments-box" value="" placeholder="Your Comments"></textarea></td>
 		</tr>
 	</table>
 </form>
-<br><button>Add exercise</button>
+<br><button>Add another exercise</button>
 <br><button> Save changes </button>
 
 		</main>
