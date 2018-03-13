@@ -1,4 +1,4 @@
-let count = 0;
+let count = 2;
 
 function rotateWireframe() {
 	let nextWireframeHtml;
@@ -17,25 +17,25 @@ function rotateWireframe() {
 				<button class="add-workout-button">Create new workout</button>
 				<ul>
 					<li>
-						<span class="li-text">Jumbo Body</span>
+						<span class="li-program-name vertical-center">Jumbo Body</span>
 					</li>
 					<li>
-						<span class="li-text">Sort-of Toned</span>
+						<span class="li-program-name vertical-center">Sort-of Toned</span>
 					</li>
 					<li>
-						<span class="li-text">Spherical Powerlifter</span>
+						<span class="li-program-name vertical-center">Spherical Powerlifter</span>
 					</li>
 					<li>
-						<span class="li-text">Big Arms For Christmas</span>
+						<span class="li-program-name vertical-center">Big Arms For Christmas</span>
 					</li>
 					<li>
-						<span class="li-text">Home Gym Mayhem</span>
+						<span class="li-program-name vertical-center">Home Gym Mayhem</span>
 					</li>
 					<li>
-						<span class="li-text">Gymnast in a Week</span>
+						<span class="li-program-name vertical-center">Gymnast in a Week</span>
 					</li>
 					<li>
-						<span class="li-text">Press Your Car</span>
+						<span class="li-program-name vertical-center">Press Your Car</span>
 					</li>
 				</ul>
 			</main>
@@ -61,31 +61,31 @@ function rotateWireframe() {
 				<button class="add-workout-button">Create new workout</button>
 				<ul>
 					<li>
-						<span class="li-text">Jumbo Body</span>
+						<span class="li-program-name vertical-center">Jumbo Body</span>
 					</li>
 					<li>
-						<span class="li-text">Sort-of Toned</span>
+						<span class="li-program-name vertical-center">Sort-of Toned</span>
 					</li>
 					<li>
-						<span class="li-text">Spherical Powerlifter</span>
+						<span class="li-program-name vertical-center">Spherical Powerlifter</span>
 					</li>
 					<li>
-						<span class="li-text">Big Arms For Christmas</span>
+						<span class="li-program-name vertical-center">Big Arms For Christmas</span>
 					</li>
 					<li>
-						<span class="li-text">Home Gym Mayhem</span>
+						<span class="li-program-name vertical-center">Home Gym Mayhem</span>
 					</li>
 					<li>
-						<span class="li-text">Gymnast in a Week</span>
+						<span class="li-program-name vertical-center">Gymnast in a Week</span>
 					</li>
 					<li>
-						<span class="li-text">Press Your Car</span>
+						<span class="li-program-name vertical-center">Press Your Car</span>
 					</li>
 				</ul>
 			</main>
 		</section>
 		<section class="edit-program-calendar-sidebar">
-			<a class="close-sidebar-widget close-sidebar-widget-1">></a>
+			<a class="close-sidebar-widget vertical-center close-sidebar-widget vertical-center-1">></a>
 			
 				<header class="sidebar-header">
 					<h2>Press Your Car</h2>
@@ -96,73 +96,94 @@ function rotateWireframe() {
 			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Mon</span>
+					<span class="li-day">Mon</span>
+					<img src="images/squat.png" alt="Squat">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Tue</span>
+					<span class="li-day">Tue</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Wed</span>
+					<span class="li-day">Wed</span>
+					<img src="images/chinup.png" alt="Chinup">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Thu</span>
+					<span class="li-day">Thu</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Fri</span>
+					<span class="li-day">Fri</span>
+					<img src="images/row.jpg" alt="Row">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sat</span>
+					<span class="li-day">Sat</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sun</span>
+					<span class="li-day">Sun</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 2</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Mon</span>
+					<span class="li-day">Mon</span>
+					<img src="images/front-squat.png" alt="Front squat">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Tue</span>
+					<span class="li-day">Tue</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Wed</span>
+					<span class="li-day">Wed</span>
+					<img src="images/powerclean.jpg" alt="Powerclean">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Thu</span>
+					<span class="li-day">Thu</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Fri</span>
+					<span class="li-day">Fri</span>
+					<img src="images/pushup.png" alt="Pushup">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sat</span>
+					<span class="li-day">Sat</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sun</span>
+					<span class="li-day">Sun</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 3</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Mon</span>
+					<span class="li-day">Mon</span>
+					<img src="images/press.jpg" alt="Press">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Tue</span>
+					<span class="li-day">Tue</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Wed</span>
+					<span class="li-day">Wed</span>
+					<img src="images/pullup.png" alt="Pullup">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Thu</span>
+					<span class="li-day">Thu</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Fri</span>
+					<span class="li-day">Fri</span>
+					<img src="images/row.jpg" alt="Row">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sat</span>
+					<span class="li-day">Sat</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sun</span>
+					<span class="li-day">Sun</span>
+					<img src="images/pillow.jpg" alt="Rest">
 				</li>
 			</ul>
 			<button class="add-week">Add a week</button>
@@ -188,31 +209,31 @@ function rotateWireframe() {
 				<button class="add-workout-button">Create new workout</button>
 				<ul>
 					<li>
-						<span class="li-text">Jumbo Body</span>
+						<span class="li-program-name vertical-center">Jumbo Body</span>
 					</li>
 					<li>
-						<span class="li-text">Sort-of Toned</span>
+						<span class="li-program-name vertical-center">Sort-of Toned</span>
 					</li>
 					<li>
-						<span class="li-text">Spherical Powerlifter</span>
+						<span class="li-program-name vertical-center">Spherical Powerlifter</span>
 					</li>
 					<li>
-						<span class="li-text">Big Arms For Christmas</span>
+						<span class="li-program-name vertical-center">Big Arms For Christmas</span>
 					</li>
 					<li>
-						<span class="li-text">Home Gym Mayhem</span>
+						<span class="li-program-name vertical-center">Home Gym Mayhem</span>
 					</li>
 					<li>
-						<span class="li-text">Gymnast in a Week</span>
+						<span class="li-program-name vertical-center">Gymnast in a Week</span>
 					</li>
 					<li>
-						<span class="li-text">Press Your Car</span>
+						<span class="li-program-name vertical-center">Press Your Car</span>
 					</li>
 				</ul>
 			</main>
 		</section>
 		<section class="edit-program-calendar-sidebar">
-			<a class="close-sidebar-widget close-sidebar-widget-1">></a>
+			<a class="close-sidebar-widget vertical-center close-sidebar-widget vertical-center-1">></a>
 			
 				<header class="sidebar-header">
 					<h2>Press Your Car</h2>
@@ -223,73 +244,73 @@ function rotateWireframe() {
 			<h3 class="week-heading">Week 1</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Mon</span>
+					<span class="li-day">Mon</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Tue</span>
+					<span class="li-day">Tue</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Wed</span>
+					<span class="li-day">Wed</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Thu</span>
+					<span class="li-day">Thu</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Fri</span>
+					<span class="li-day">Fri</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sat</span>
+					<span class="li-day">Sat</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sun</span>
+					<span class="li-day">Sun</span>
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 2</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Mon</span>
+					<span class="li-day">Mon</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Tue</span>
+					<span class="li-day">Tue</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Wed</span>
+					<span class="li-day">Wed</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Thu</span>
+					<span class="li-day">Thu</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Fri</span>
+					<span class="li-day">Fri</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sat</span>
+					<span class="li-day">Sat</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sun</span>
+					<span class="li-day">Sun</span>
 				</li>
 			</ul>
 						<h3 class="week-heading">Week 3</h3>
 			<ul class="calendar-week">
 				<li class="calendar-day">
-					<span class="li-text">Mon</span>
+					<span class="li-day">Mon</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Tue</span>
+					<span class="li-day">Tue</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Wed</span>
+					<span class="li-day">Wed</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Thu</span>
+					<span class="li-day">Thu</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Fri</span>
+					<span class="li-day">Fri</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sat</span>
+					<span class="li-day">Sat</span>
 				</li>
 				<li class="calendar day">
-					<span class="li-text">Sun</span>
+					<span class="li-day">Sun</span>
 				</li>
 			</ul>
 			<button class="add-week">Add a week</button>
@@ -298,7 +319,7 @@ function rotateWireframe() {
 				
 	
 	<section class="edit-workout-sidebar">
-			<a class="close-sidebar-widget close-sidebar-widget-2">></a>
+			<a class="close-sidebar-widget vertical-center close-sidebar-widget vertical-center-2">></a>
 		
 		<header class="sidebar-header">
 			<h2>Press Your Car <br> Fri Week 1</h2>
@@ -370,10 +391,10 @@ function rotateWireframe() {
 
 		<div class="wireframe-content">
 		<section class="hero landing-page-section">
-			<h1>StrengthExchange</h1>
+			<h1 class="vertical-center">StrengthExchange</h1>
 		</section>
 		<section class="description landing-page-section">
-			<p class="description-para">
+			<p class="description-para vertical-center">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -385,7 +406,7 @@ function rotateWireframe() {
 		<section class="login-signup landing-page-section">
 			<h2>Sign Up</h2>
 			<p>Already registered? Click <a href="blank">here</a> to sign in</p>
-			<div class="form-wrapper">
+			<div class="form-wrapper horizontal-center">
 				<form>
 					<label for="name">Name</label><br>
 					<input id="name" type="text" name=""><br>

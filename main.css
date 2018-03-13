@@ -4,6 +4,19 @@
 	color: #FEFFE4;
 }
 
+.vertical-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.horizontal-center {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
 h1, h2, h3 {
 	font-family: 'Cardo', serif;
 	margin: 0;
@@ -68,13 +81,6 @@ nav h3 {
 	height: 230px;
 }
 
-
-.hero h1 {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
 .landing-page-section h1, .dashboard-header h2, 
 .program-calendar-header h2,
 .edit-exercise-header h2, .sidebar-header h2 {
@@ -87,9 +93,6 @@ nav h3 {
 
 .description p {
 	font-size: 1.3em;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: justify;
@@ -117,9 +120,6 @@ nav h3 {
 	padding-bottom: 40px;
 	position: relative;
 	width: 180px;
-	left: 50%;
-	transform: translateX(-50%);
-
 }
 
 .login-signup p {
@@ -215,30 +215,43 @@ nav h3 {
 }
 
 .workouts ul li {
-width: 120px;
+	width: 120px;
 	height: 120px;
-	
 }
 
 .edit-program-calendar-sidebar ul li {
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
+
 }
 
 .workouts ul li, .edit-program-calendar-sidebar ul li {
 	margin: 10px;
-	border: 3px red solid;
+	border: 3px grey solid;
 	cursor: pointer;
+	background-color: white;
 }
 
+.workouts ul li span, .edit-program-calendar-sidebar ul li span {
+	color: black;
+	display: block;
+}
 
-.workouts ul li .li-text,
 .edit-program-calendar-sidebar ul li .li-text {
-	padding: 7px;
+	position: relative;
+	top: 50%;
+
+}
+
+.edit-program-calendar-sidebar ul li img {
+	max-width: 90px;
+	max-height: 70px;
+}
+
+.workouts ul li .li-day {
+	padding-top: 7px;
 	position: relative;
 	display: block;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .edit-program-calendar-sidebar {
@@ -258,12 +271,10 @@ width: 120px;
 }
 
 .close-sidebar-widget {
-	position: absolute;
+	position: fixed;
 	display: block;
 	width: 50px;
 	height: 50px;
-	top: 50%;
-	transform: translateY(-50%);
 	background: #CCCCCC;
 	z-index: 10;
 	cursor: pointer;
