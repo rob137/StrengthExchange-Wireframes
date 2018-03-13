@@ -6,6 +6,7 @@
 
 h1, h2, h3 {
 	font-family: 'Cardo', serif;
+	margin: 0;
 }
 
 .next-wireframe-button {
